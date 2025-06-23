@@ -1,10 +1,10 @@
-import "../styles/globals.css"
-import type { ReactNode } from 'react'
+import "./styles/globals.css";
+import type { ReactNode } from "react";
 
 export const metadata = {
-  title: 'Device Tracker',
-  description: 'Dashboard to track Mac shipments',
-}
+  title: "Device Tracker",
+  description: "Dashboard to track Mac shipments",
+};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   // TODO: Add client portal login
@@ -14,5 +14,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
       </body>
     </html>
-  )
+  );
 }
