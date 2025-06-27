@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 export function GET() {
-  // TODO: Add Addigy API authentication and replace with real data
+  // TODO: Add Datto API authentication and replace with real data
   const devices = [
     {
       id: '1',
