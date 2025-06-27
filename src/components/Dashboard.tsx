@@ -25,7 +25,8 @@ export default async function Dashboard() {
   const out = 0
 
   return (
-    <div className="p-8 space-y-8">
+    <div className="max-w-4xl mx-auto p-8 space-y-8">
+      <h1 className="text-2xl font-semibold text-gray-800">Device Status</h1>
       <StatusSummary inUse={inUse} readyForUse={ready} outOfService={out} />
     </div>
   )
